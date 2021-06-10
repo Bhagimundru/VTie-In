@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right,#caf7e3,#9fe6a0);
+    opacity:0.8;
+}
+h1{
+    color:white;
+    text-align:center;
+}
+.col-lg-4{
+    box-shadow: 10px 10px 9px grey;
+}

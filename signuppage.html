@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VTie-In SignIn</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/500ae7391e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <div class="row m-auto">
+            <div class="col-lg-4 mx-auto bg-dark mt-5">
+                <h1 class="mt-4">Create your Account</h1>
+                <br>
+                <form class="pl-3 pr-3 pb-3">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="firstname" placeholder="Firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="lastname" placeholder="Lastname" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="Age" placeholder="Age" min="19" required>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="Gender" required>
+                            <option style="display: none;">Gender</option>
+                            <option value="Doctor" >Female</option>
+                            <option value="Student">Male</option>
+                            <option value="other">Others</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="profession" required>
+                            <option style="display: none;">Profession</option>
+                            <option value="Doctor">Doctor</option>
+                            <option value="Student">Student</option>
+                            <option value="other">Others</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" id="PhoneNumber" placeholder="PhoneNumber" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" id="Address" placeholder="Address" required>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label text-white">
+                          <input type="checkbox" class="form-check-input" required>I agree to <a href="#">Terms and conditions</a>
+                        </label>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-success btn-block">Sign-up</button><br>
+                    <a href="index.html" class="text-white float-right">Go back to home</a>
+                    <br>
+                </form>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

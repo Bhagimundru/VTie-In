@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right,#caf7e3,#9fe6a0);
+    opacity:0.8;
+}
+.fa-facebook,.fa-twitter,.fa-google{
+    color:white;
+}
+.card{
+    box-shadow: 10px 10px 9px grey;
+}
